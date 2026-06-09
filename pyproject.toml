@@ -1,0 +1,17 @@
+[project]
+name = "battery-life"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "h5py>=3.16.0",
+    "kaggle>=2.1.2",
+    "matplotlib>=3.10.9",
+    "scikit-learn>=1.9.0",
+    "thop>=0.1.1.post2209072238",
+    "torch>=2.12.0",
+    "torchdiffeq>=0.2.5",
+    "tqdm>=4.67.3",
+    "watchdog>=6.0.0",
+]
